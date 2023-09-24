@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="./images/logo.png" alt="my logo img" />
+        <img src="https://babybundlesimages.netlify.app/sitelogo.png" className="sitelogo" alt="my logo img" />
       </NavLink>
       <Nav />
     </MainHeader>
@@ -18,11 +18,15 @@ const MainHeader = styled.header`
   padding: 0 4.8rem;
   height: 10rem;
   background-color: ${({ theme }) => theme.colors.bg};
+  // ${({ theme }) => theme.colors.bg}
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-
+.sitelogo{
+  height:8rem;
+  width: 15rem;
+}
   .logo {
     height: 5rem;
   }

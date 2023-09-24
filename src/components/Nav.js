@@ -23,13 +23,13 @@ const Nav = () => {
           font-size: 1.8rem;
           font-weight: 500;
           text-transform: uppercase;
-          color: ${({ theme }) => theme.colors.black};
+          color: #3D0C11;
           transition: color 0.3s linear;
         }
 
         &:hover,
         &:active {
-          color: ${({ theme }) => theme.colors.helper};
+          color: #F78CA2};
         }
       }
     }
@@ -68,7 +68,7 @@ const Nav = () => {
         place-items: center;
         top: -20%;
         left: 70%;
-        background-color: ${({ theme }) => theme.colors.helper};
+        background-color: #F78CA2;
       }
     }
 

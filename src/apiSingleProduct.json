@@ -1,0 +1,590 @@
+[
+    {
+        "id": "BB01",
+        "name": "Cute Socks (2 Pairs Pack)",
+        "age": "0-6 months",
+        "price": 50000,
+        "description": "Keep your baby's feet warm and comfortable with our adorable baby socks. Crafted from soft, breathable materials, these socks are perfect for delicate skin. The charming designs and elastic cuffs ensure a secure and cozy fit, making them an essential addition to your little one's wardrobe.",
+        "category": "clothes",
+        "stock": 5,
+        "reviews": 58,
+        "stars": 4.8,
+        "image": [
+            {
+                "id": "randomid1",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cutesocks.jpg",
+                "filename": "cutesocks.jpg",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid2",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cutesocks2.jpg",
+                "filename": "cutesocks2.jpg",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid3",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cutesocks3.jpg",
+                "filename": "cutesocks3.jpg",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid4",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cutesocks.jpg",
+                "filename": "cutesocks.jpg",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB02",
+        "name": "Cactus Toy",
+        "age": "24-48 months",
+        "price": 699900,
+        "description": "Bring the desert to life with our interactive cactus toy! This cuddly companion not only offers a soft and comforting hug but also features realistic cactus sounds, adding a fun and educational element to playtime. Delight your little one with the magic of nature in the form of this charming, sound-mimicking cactus toy.",
+        "category": "toys",
+        "stock": 5,
+        "reviews": 58,
+        "stars": 4.8,
+        "image": [
+            {
+                "id": "randomid1",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cactoy.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid2",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cactoy2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid3",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cactoy3.webp",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid4",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/cactoy.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB03",
+        "name": "Peppa Pig Puppets",
+        "age": "0-12 months",
+        "price": 25000,
+        "description": "Designed with little hands in mind, simply slip these tiny puppets over any finger to bring these lovable characters to life! Perfect for in the bath & out, these finger puppets make for an excellent educational resource- aiding in teaching your child colors, counting, and more! Since they are fully waterproof, bring them to the pool or the beach for an aquatic adventure with friends. Crafted with soft, thick, and durable PVC, each puppet is 100% latex & phthalate free. For parents, the possibilities are endless for these puppets- they make for perfect party favors and great gifts.",
+        "category": "toys",
+        "stock": 5,
+        "reviews": 58,
+        "stars": 4.8,
+        "image": [
+            {
+                "id": "randomid5",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/peppapig1.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid6",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/peppapig2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid7",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/peppapig3.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid8",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/peppapig1.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB04",
+        "name": "Cetaphil Shampoo",
+        "age": "6-36 months",
+        "price": 50000,
+        "description": "Care for your baby's delicate hair with Cetaphil's gentle baby shampoo. The tear-free, hypoallergenic formula ensures a soothing and safe bath time experience, leaving your baby's hair soft, clean, and healthy.",
+        "category": "accessories",
+        "stock": 6,
+        "reviews": 53,
+        "stars": 4.2,
+        "image": [
+            {
+                "id": "randomid9",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/babyshampoo.webp",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid10",
+                "width": 1080,
+                "height": 650,
+                "url": " https://babybundlesimages.netlify.app/babyshampoo2.webp",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid11",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/babyshampoo.webp",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid12",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/babyshampoo2.webp",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB05",
+        "name": "Baby Sun Lotion",
+        "age": "12-60 months",
+        "price": 500000,
+        "description": "Shield your little one from the sun's rays with our gentle and effective baby sun lotion. Specially formulated for sensitive baby skin, it provides protection and peace of mind during outdoor adventures.",
+        "category": "accessories",
+        "stock": 4,
+        "reviews": 30,
+        "stars": 4.1,
+        "image": [
+            {
+                "id": "randomid13",
+                "width": 1080,
+                "height": 650,
+                "url": " https://babybundlesimages.netlify.app/sunlotion.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid14",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/sunlotion2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid15",
+                "width": 1080,
+                "height": 650,
+                "url": " https://babybundlesimages.netlify.app/sunlotion.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid16",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/sunlotion2.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB06",
+        "name": "Baby Walker",
+        "age": "3-24 months",
+        "price": 549900,
+        "description": "Encourage your baby's first steps with our safe and entertaining baby walkers. Designed to support early mobility, our walkers provide endless fun while keeping your baby secure.",
+        "category": "toys",
+        "stock": 5,
+        "reviews": 41,
+        "stars": 4.5,
+        "image": [
+            {
+                "id": "randomid17",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/stroller.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid18",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/stroller2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid19",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/stroller3.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid20",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/stroller4.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB07",
+        "name": "Cute Baby Gloves",
+        "age": "0-8 months",
+        "price": 60000,
+        "description": "Protect your baby's tiny hands in style with our cute baby gloves. Crafted for comfort and warmth, these gloves add a touch of charm to your baby's outfits.",
+        "category": "clothes",
+        "stock": 10,
+        "reviews": 90,
+        "stars": 3.9,
+        "image": [
+            {
+                "id": "randomid21",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/babygloves.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid22",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/babygloves2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid23",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/babygloves.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid24",
+                "width": 1080,
+                "height": 650,
+                "url":"https://babybundlesimages.netlify.app/babygloves2.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB08",
+        "name": "Floral Baby Dress",
+        "price": 199900,
+        "age": "6-14 months",
+        "description": "Dress your little one in floral perfection with our charming baby dresses. Delicately crafted with vibrant patterns, these dresses are ideal for special occasions or a day out with family.",
+        "category": "clothes",
+        "stock": 2,
+        "reviews": 25,
+        "stars": 4.0,
+        "image": [
+            {
+                "id": "randomid25",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/flowerdress.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid26",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/flowerdress2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid27",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/flowerdress3.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid28",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/flowerdress.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB09",
+        "name": "Baby Diaper",
+        "price": 229900,
+        "age": "0-36 months",
+        "description": "Ensure your little one stays comfortable and dry with our premium baby diapers. Designed for maximum absorption and a snug fit, these diapers provide all-day leak protection, so your baby can play and explore without worries. Keep your baby's delicate skin rash-free and feeling fresh with our trusted and gentle baby diapers, the perfect choice for busy parents.",
+        "category": "accessories",
+        "stock": 10,
+        "reviews": 100,
+        "stars": 4.3,
+        "image": [
+            {
+                "id": "randomid29",
+                "width": 1080,
+                "height": 650,
+                "url": " https://babybundlesimages.netlify.app/diaper.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid30",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/diaper2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid31",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/diaper3.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid32",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/diaper.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB10",
+        "name": "Baby Bib",
+        "age": "0-24 months",
+        "price": 79900,
+        "description": "Keep your baby clean and cute with our practical and stylish baby bibs. These adorable accessories are designed to catch those messy mealtime moments, making feeding a breeze.",
+        "category": "accessories",
+        "stock": 20,
+        "reviews": 49,
+        "stars": 4.0,
+        "image": [
+            {
+                "id": "randomid33",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/bib2.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid34",
+                "width": 1080,
+                "height": 650,
+                "url": " https://babybundlesimages.netlify.app/bib.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid35",
+                "width": 1080,
+                "height": 650,
+                "url": " https://babybundlesimages.netlify.app/bib2.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid36",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/bib.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB11",
+        "name": "Baby Blanket",
+        "age": "0-48 months",
+        "price": 499900,
+        "description": "Wrap your baby in the warmth and comfort of our soft blankets. Made with love and the gentlest materials, these blankets are perfect for cuddling, napping, or tummy time.",
+        "category": "accessories",
+        "stock": 1,
+        "reviews": 30,
+        "stars": 3.9,
+        "image": [
+            {
+                "id": "randomid37",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/blanket.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid38",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/blanket.webp",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid39",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/blanket2.jpg",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid40",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/blanket.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    },
+    {
+        "id": "BB12",
+        "name": "Barbie Doll",
+        "price": 90000,
+        "age": "36-60 months",
+        "description": "Wearing a colorful trendy dress with a pair of pretty heels, Barbie doll really makes a style statement",
+        "category": "toys",
+        "stock": 25,
+        "reviews": 80,
+        "stars": 4.1,
+        "image": [
+            {
+                "id": "randomid41",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/barbie.jpg",
+                "filename": "prod-1.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid42",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/barbie2.jpg",
+                "filename": "prod-2.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid43",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/barbie3.webp",
+                "filename": "prod-3.png",
+                "size": 1080,
+                "type": "image/png"
+            },
+            {
+                "id": "randomid44",
+                "width": 1080,
+                "height": 650,
+                "url": "https://babybundlesimages.netlify.app/barbie4.jpg",
+                "filename": "prod-4.png",
+                "size": 1080,
+                "type": "image/png"
+            }
+        ]
+    }
+]

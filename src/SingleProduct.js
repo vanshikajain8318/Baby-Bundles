@@ -10,7 +10,7 @@ import { MdSecurity } from "react-icons/md";
 import { TbTruckDelivery, TbReplace } from "react-icons/tb";
 import Star from "./components/Star";
 import AddToCart from "./components/AddToCart";
-import apiData from "./singleProductAPI.json";
+import apiData from "./apiSingleProduct.json";
 
 const API = apiData;
 
@@ -27,7 +27,7 @@ const SingleProduct = () => {
   const {
     id: alias,
     name,
-    company,
+    age,
     price,
     description,
     category,
@@ -37,11 +37,6 @@ const SingleProduct = () => {
     image,
   } = singleProduct;
 
-
-
-  // if (isSingleLoading) {
-  //   return <div className="page_loading">Loading.....</div>;
-  // }
 
   return (
     <Wrapper>
@@ -81,7 +76,7 @@ const SingleProduct = () => {
 
               <div className="product-warranty-data">
                 <TbTruckDelivery className="warranty-icon" />
-                <p>Thapa Delivered </p>
+                <p>Fast Delivery</p>
               </div>
 
               <div className="product-warranty-data">
@@ -99,7 +94,7 @@ const SingleProduct = () => {
                 ID : <span> {id} </span>
               </p>
               <p>
-                Brand :<span> {company} </span>
+                Age :<span> {age} </span>
               </p>
             </div>
             <hr />

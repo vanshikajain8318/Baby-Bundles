@@ -7,18 +7,6 @@ const filterReducer = (state, action) => {
         priceArr
       );
 
-      // 1way
-      // console.log(Math.max.apply(null, priceArr));
-
-      // let maxPrice = priceArr.reduce(
-      //   (initialVal, curVal) => Math.max(initialVal, curVal),
-      //   0
-      // );
-      // console.log(
-      //   "🚀 ~ file: filterReducer.js ~ line 16 ~ filterReducer ~ maxPrice",
-      //   maxPrice
-      // );
-
       let maxPrice = Math.max(...priceArr);
       console.log(
         "🚀 ~ file: filterReducer.js ~ line 23 ~ filterReducer ~ maxPrice",
@@ -45,8 +33,6 @@ const filterReducer = (state, action) => {
       };
 
     case "GET_SORT_VALUE":
-      // let userSortValue = document.getElementById("sort");
-      // let sort_value = userSortValue.options[userSortValue.selectedIndex].value;
       return {
         ...state,
         sorting_value: action.payload,
@@ -99,7 +85,7 @@ const filterReducer = (state, action) => {
       let { all_products } = state;
       let tempFilterProduct = [...all_products];
 
-      const { text, category, company, color, price } = state.filters;
+      const { text, category, age,  price } = state.filters;
 
       if (text) {
         tempFilterProduct = tempFilterProduct.filter((curElem) => {
@@ -112,18 +98,25 @@ const filterReducer = (state, action) => {
           (curElem) => curElem.category === category
         );
       }
-
-      if (company !== "all") {
-        tempFilterProduct = tempFilterProduct.filter(
-          (curElem) => curElem.company.toLowerCase() === company.toLowerCase()
-        );
+      if (age!=null && age !== "all") { 
+        tempFilterProduct = tempFilterProduct.filter((curElem) => {
+          const ageRange = age.split('-');
+          const ageInMonths = parseInt(curElem.age); // Parse age as an integer
+          if (!isNaN(ageInMonths)) {
+            return (
+              ageInMonths >= parseInt(ageRange[0]) &&
+              ageInMonths <= parseInt(ageRange[1])
+            );
+          } else {
+            return true; 
+          }
+        });
       }
 
-      if (color !== "all") {
-        tempFilterProduct = tempFilterProduct.filter((curElem) =>
-          curElem.colors.includes(color)
-        );
-      }
+     
+      
+
+     
 
       if (price === 0) {
         tempFilterProduct = tempFilterProduct.filter(
@@ -146,8 +139,7 @@ const filterReducer = (state, action) => {
           ...state.filters,
           text: "",
           category: "all",
-          company: "all",
-          color: "all",
+          age: "",
           maxPrice: 0,
           price: state.filters.maxPrice,
           minPrice: state.filters.maxPrice,

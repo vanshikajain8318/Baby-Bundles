@@ -130,7 +130,6 @@ const Wrapper = styled.section`
     text-transform: capitalize;
   }
   .cart-image--name {
-    /* background-color: red; */
     align-items: center;
     display: grid;
     gap: 1rem;

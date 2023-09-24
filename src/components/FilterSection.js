@@ -6,7 +6,7 @@ import { Button } from "../styles/Button";
 
 const FilterSection = () => {
   const {
-    filters: { text, category, color, price, maxPrice, minPrice },
+    filters: { text, category, age, price, maxPrice, minPrice },
     updateFilterValue,
     all_products,
     clearFilters,
@@ -18,22 +18,15 @@ const FilterSection = () => {
       return curElem[attr];
     });
 
-    if (attr === "colors") {
-      // return (newVal = ["All", ...new Set([].concat(...newVal))]);
-      newVal = newVal.flat();
-    }
 
     return (newVal = ["all", ...new Set(newVal)]);
   };
 
   // we need to have the individual data of each in an array format
   const categoryData = getUniqueData(all_products, "category");
-  const companyData = getUniqueData(all_products, "company");
-  const colorsData = getUniqueData(all_products, "colors");
-  // console.log(
-  //   "🚀 ~ file: FilterSection.js ~ line 23 ~ FilterSection ~ companyData",
-  //   colorsData
-  // );
+  const companyData = getUniqueData(all_products, "age");
+ 
+ 
 
   return (
     <Wrapper>
@@ -68,60 +61,18 @@ const FilterSection = () => {
         </div>
       </div>
 
-      <div className="filter-company">
+      <div className="filter-age">
         <h3>Age</h3>
-
-        <form action="#">
-          <select
-            name="company"
-            id="company"
-            className="filter-company--select"
-            onClick={updateFilterValue}>
-            {companyData.map((curElem, index) => {
-              return (
-                <option key={index} value={curElem} name="company">
-                  {curElem}
-                </option>
-              );
-            })}
-          </select>
-        </form>
-      </div>
-
-      <div className="filter-colors colors">
-        <h3>Colors</h3>
-
-        <div className="filter-color-style">
-          {colorsData.map((curColor, index) => {
-            if (curColor === "all") {
-              return (
-                <button
-                  key={index}
-                  type="button"
-                  value={curColor}
-                  name="color"
-                  className="color-all--style"
-                  onClick={updateFilterValue}>
-                  all
-                </button>
-              );
-            }
-            return (
-              <button
-                key={index}
-                type="button"
-                value={curColor}
-                name="color"
-                style={{ backgroundColor: curColor }}
-                className={color === curColor ? "btnStyle active" : "btnStyle"}
-                onClick={updateFilterValue}>
-                {color === curColor ? <FaCheck className="checkStyle" /> : null}
-              </button>
-            );
-          })}
+        <select className="filter-age-select" name="age" onChange={updateFilterValue} value={age}>
+        <option value="">All</option>
+        <option value="0-6">0-6 months</option>
+        <option value="0-36">0-36 months</option>
+        <option value="6-12">6-12 months</option>
+        <option value="12-60">12-60 months</option>
+        <option value="24-48">24-48 months</option>
+      </select>
         </div>
-      </div>
-
+        
       <div className="filter_price">
         <h3>Price</h3>
         <p>
@@ -155,6 +106,7 @@ const Wrapper = styled.section`
   h3 {
     padding: 2rem 0;
     font-size: bold;
+    color: ${({ theme }) => theme.colors.heading}
   }
 
   .filter-search {
@@ -189,13 +141,17 @@ const Wrapper = styled.section`
     }
   }
 
-  .filter-company--select {
-    padding: 0.3rem 1.2rem;
+  .filter-age {
+   
     font-size: 1.6rem;
-    color: ${({ theme }) => theme.colors.text};
+    color: ${({ theme }) => theme.colors.heading};
     text-transform: capitalize;
   }
-
+  .filter-age-select{
+    border: none;
+    padding: 1rem 0rem;
+    font-size: 1.6rem;
+  }
   .filter-color-style {
     display: flex;
     justify-content: center;

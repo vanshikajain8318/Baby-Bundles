@@ -11,21 +11,19 @@ const HeroSection = ({ myData }) => {
         <div className="grid grid-two-column">
           <div className="hero-section-data">
             <p className="intro-data">Welcome to </p>
-            <h1> {name} </h1>
+            <h1 className="intro-name"> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+            Explore our curated collection of adorable baby products, from cute clothes to cozy accessories. Discover the perfect items to keep your baby happy and stylish. Let's make your parenting journey even more special with Baby Bundles!
             </p>
             <NavLink>
-              <Button>show now</Button>
+              <Button>Shop now</Button>
             </NavLink>
           </div>
           {/* our homepage image  */}
           <div className="hero-section-image">
             <figure>
               <img
-                src="images/hero.jpg"
+                src="https://babybundlesimages.netlify.app/babybirthday.jpg"
                 alt="hero-section-photo"
                 className="img-style"
               />
@@ -56,7 +54,12 @@ const Wrapper = styled.section`
     }
 
     .intro-data {
+      font-weight: bold;
+      color:black;
       margin-bottom: 0;
+    }
+    .intro-name {
+      color:#F78CA2;
     }
   }
 
@@ -74,7 +77,7 @@ const Wrapper = styled.section`
       content: "";
       width: 60%;
       height: 80%;
-      background-color: rgba(81, 56, 238, 0.4);
+      background-color: #F78CA2;
       position: absolute;
       left: 50%;
       top: -5rem;
@@ -98,7 +101,7 @@ const Wrapper = styled.section`
       left: 0;
       top: 10%;
       /* bottom: 10%; */
-      background-color: rgba(81, 56, 238, 0.4);
+      background-color: #F78CA2;
     }
   }
 `;
