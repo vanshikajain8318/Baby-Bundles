@@ -1,5 +1,5 @@
 # Baby-Bundles
-Baby Bundles React Project
+
 
 **Overview**
 Baby Bundles is a React-based e-commerce website for baby products. This project aims to provide a user-friendly platform for parents and caregivers to discover, explore, and purchase a wide range of baby items. From baby clothing to feeding essentials, we've got everything to make your baby's journey more comfortable and enjoyable.
