@@ -3,7 +3,7 @@ import reducer from "../reducer/productReducer";
 import apiData from "../api.json"
 
 
-const API = apiData;
+// const API = apiData;
 
 const AppContext = createContext();
 const initialState = {

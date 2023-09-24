@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
-import { useProductContext } from "./context/productcontex";
 import PageNavigation from "./components/PageNavigation";
 import MyImage from "./components/MyImage";
 import { Container } from "./styles/Container";
@@ -25,12 +23,12 @@ const SingleProduct = () => {
   }
 
   const {
-    id: alias,
+    
     name,
     age,
     price,
     description,
-    category,
+    
     stock,
     stars,
     reviews,
