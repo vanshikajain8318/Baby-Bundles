@@ -1,16 +1,17 @@
 # Baby-Bundles
 Baby Bundles React Project
+
 **Overview**
 Baby Bundles is a React-based e-commerce website for baby products. This project aims to provide a user-friendly platform for parents and caregivers to discover, explore, and purchase a wide range of baby items. From baby clothing to feeding essentials, we've got everything to make your baby's journey more comfortable and enjoyable.
 
 **Technologies Used**
 **React**: Baby Bundles is built entirely using React, a popular JavaScript library for building user interfaces. React components are used to create a dynamic and interactive web application.
 
-**React Router**: We use React Router for client-side routing. It allows users to navigate through the site seamlessly and provides a better user experience.
+**React Router**: I have use React Router for client-side routing. It allows users to navigate through the site seamlessly and provides a better user experience.
 
 Context API: Context API is used for state management. It helps maintain global state, making it accessible throughout the application.
 
-**Styled-Components**: We've used Styled-Components for styling. This CSS-in-JS solution allows for component-based styling, making it easy to manage and maintain styles.
+**Styled-Components**: I have used Styled-Components for styling. This CSS-in-JS solution allows for component-based styling, making it easy to manage and maintain styles.
 
 **Axios**: Axios is used for making API requests to fetch product data and display it on the website.
 
